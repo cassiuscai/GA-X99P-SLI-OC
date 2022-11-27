@@ -5,7 +5,15 @@
         <key>ACPI</key>
         <dict>
             <key>Add</key>
-            <array>
+	    <array>
+		<dict>
+		    <key>Comment</key>
+		    <string>RX 5700 XT Boost</string>
+		    <key>Enabled</key>
+		    <true/>
+		    <key>Path</key>
+		    <string>SSDT-RX 5700 XT-Version 1.0.aml</string>
+		</dict>
                 <dict>
                     <key>Comment</key>
                     <string>DSDT by Maldon fixed by Nave</string>
@@ -26,7 +34,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>SSDT-PLUG.aml</string>
                 </dict>
@@ -34,7 +42,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>SSDT-RTC0-RANGE.aml</string>
                 </dict>
@@ -42,7 +50,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>SSDT-UNC.aml</string>
                 </dict>
@@ -50,7 +58,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Path</key>
                     <string>SSDT-USBX.aml</string>
                 </dict>
@@ -193,7 +201,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0</string>
+                    <string>V1.5.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -842,7 +850,7 @@
                     <key>SystemAudioVolume</key>
                     <data>ZA==</data>
                     <key>boot-args</key>
-                    <string>npci=0x2000 -v</string>
+                    <string>npci=0x2000 keepsyms=1 agdpmod=pikera shikigva=80 shiki-id=Mac-7BA5B2D9E42DDD94</string>
                     <key>csr-active-config</key>
                     <data>hwcAAA==</data>
                     <key>prev-lang:kbd</key>
