@@ -5,15 +5,15 @@
         <key>ACPI</key>
         <dict>
             <key>Add</key>
-	    <array>
-		<dict>
-		    <key>Comment</key>
-		    <string>RX 5700 XT Boost</string>
-		    <key>Enabled</key>
-		    <true/>
-		    <key>Path</key>
-		    <string>SSDT-RX 5700 XT-Version 1.0.aml</string>
-		</dict>
+        <array>
+                <dict>
+                    <key>Comment</key>
+                    <string>RX 5700 XT Boost</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-RX 5700 XT-Version 1.0.aml</string>
+                    </dict>
                 <dict>
                     <key>Comment</key>
                     <string>DSDT by Maldon fixed by Nave</string>
@@ -224,6 +224,24 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/Lilu</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>BlueToolFixup.kext</string>
+                    <key>Comment</key>
+                    <string>BlueToolFixup</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
